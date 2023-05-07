@@ -17,58 +17,45 @@
   <meta property="og:image:width" content="1280"/>
   <meta property="og:image:height" content="800"/>
   <link rel="stylesheet" href="assets/css/main.css" />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VY9MN9KWG0"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-VY9MN9KWG0');
-  </script>
-
-
-    <!-- Hotjar Tracking Code for https://daniel-bellfield.com/ -->
+  <!-- Hotjar Tracking Code for https://danielbellfield.netlify.app/ -->
   <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2909169,hjsv:6};
+        h._hjSettings={hjid:2909164,hjsv:6};
         a=o.getElementsByTagName('head')[0];
         r=o.createElement('script');r.async=1;
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
   </script>
-
-    <!-- Start of Async Drift Code -->
+      <!-- Start of Async Drift Code -->
   <script>
-  "use strict";
-
-  !function() {
-    var t = window.driftt = window.drift = window.driftt || [];
-    if (!t.init) {
-      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-      t.factory = function(e) {
-        return function() {
-          var n = Array.prototype.slice.call(arguments);
-          return n.unshift(e), t.push(n), t;
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
         };
-      }, t.methods.forEach(function(e) {
-        t[e] = t.factory(e);
-      }), t.load = function(t) {
-        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-        var i = document.getElementsByTagName("script")[0];
-        i.parentNode.insertBefore(o, i);
-      };
-    }
-  }();
-  drift.SNIPPET_VERSION = '0.3.1';
-  drift.load('69ktyy424ipn');
-  </script>
-  <!-- End of Async Drift Code -->
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('69ktyy424ipn');
+    </script>
+    <!-- End of Async Drift Code -->
 
   
 </head>
@@ -85,9 +72,9 @@
               <header id="header">
                 <a href="index.html" class="logo"><strong>Daniel Bellfield</strong> Web Developer</a>
                 <ul class="icons">
-                  <li><a target="blank" href="https://twitter.com/DanielBellfiel1" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                  <li><a target="blank" href="https://github.com/dnlbellfield" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                  <li><a target="blank" href="https://www.linkedin.com/in/danielbellfield-dev/" class="icon brands fa-linkedin"></a></li>
+                  <li><a target="blank"href="https://twitter.com/DanielBellfield" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                  <li><a target="blank"href="https://github.com/dnlbellfield" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                  <li><a target="blank"href="https://www.linkedin.com/in/danielbellfield-dev/" class="icon brands fa-linkedin"></a></li>
                   <!-- <li><a href="https://hashnode.com/@DanielBellfield" class="icon fa-brands fa-memo"><span class="label">Hashnode</span></a></li> -->
                   <li><a target="blank" href="mailto:dnlbellfield@gmail.com" class="icon solid fa-envelope" ></a></li>
                   <!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
@@ -110,7 +97,7 @@
                   </ul>
                 </div>
                 <span class="image object">
-                  <img src="images/pic-1-min.png" alt="Daniel Bellfield" />
+                  <img src="images/pic-1.png" alt="Daniel Bellfield" />
                 </span>
               </section>
 
@@ -177,7 +164,7 @@
           <article>
             <span class="icon solid fa-rocket"></span>
             <div class="content">
-              <h3>Google Analytics</h3>
+              <h3>PHP</h3>
             </div>
           </article>
           <article>
@@ -233,22 +220,15 @@
                       <li><a target="blank" href="https://github.com/dnlbellfield/html-email-peachy" class="button">GitHub</a></li>
                     </ul>
                   </article>
+
                   <article>
-                    <a target="blank" href="https://marcellawilroy.netlify.app/" class="image"><img src="https://media4.giphy.com/media/jWgkuRPxOLkKWE7gtu/giphy.gif?cid=790b761197ea3b16364dfa41c04b35a826bb309781b21a21&rid=giphy.gif&ct=g" alt="" /></a>
-                    <h3>MW Content Specialist</h3>
-                    <p>Portfolio Website</p>
-                    <ul class="actions">
-                      <li><a target="blank" href="https://marcellawilroy.netlify.app/" class="button">Visit</a></li>
-                    </ul>
-                  </article>
-                  <!-- <article>
                     <a target="blank" href="https://faq-festival.netlify.app/" class="image"><img src="https://media3.giphy.com/media/iAZVAHoJPxBMFVqAlQ/giphy.gif?cid=790b761143125c01842de21ff92bda794a385814d3efaecd&rid=giphy.gif&ct=g" alt="" /></a>
                     <h3>Frequently asked questions page</h3>
                     <p>Faq page for a music festival</p>
                     <ul class="actions">
                       <li><a target="blank" href="https://faq-festival.netlify.app/" class="button">Visit</a></li>
                     </ul>
-                  </article> -->
+                  </article>
 
                   <article>
                     <a target="blank" href="https://kayak-promotional-email.netlify.app/" class="image"><img src="https://media0.giphy.com/media/v1z7Q6pL9ILrUC05jk/giphy.gif?cid=790b7611e7572bf8f206a3babd4ac19794d46544f5747188&rid=giphy.gif&ct=g" /></a>
@@ -383,16 +363,16 @@
                 </header>
                 <p>Reach out and let's start a conversation!</p>
                 <ul class="contact">
-                  <li class="icon solid fa-envelope"><a  target="blank" href="mailto:dnlbellfield@gmail.com">Dnlbellfield@gmail.com</a></li>
-                  <li class="icon solid brands fa-twitter"><a target="blank" href="https://twitter.com/DanielBellfiel1" >Twitter</span></a></li>
-                  <li class="icon icon brands fa-github"><a  target="blank"href="https://github.com/dnlbellfield" ><span class="label">Github</span></a></li>
-                  <li class="icon icon brands fa-linkedin"><a target="blank" href="https://www.linkedin.com/in/danielbellfield-dev/" ><span class="label">Linkedin</span></a></li>
+                  <li class="icon solid fa-envelope"><a href="mailto:dnlbellfield@gmail.com">Dnlbellfield@gmail.com</a></li>
+                  <li class="icon solid brands fa-twitter"><a href="https://twitter.com/DanielBellfield" >Twitter</span></a></li>
+                  <li class="icon icon brands fa-github"><a href="https://github.com/dnlbellfield" ><span class="label">Github</span></a></li>
+                  <li class="icon icon brands fa-linkedin"><a href="https://www.linkedin.com/in/danielbellfield-dev/" ><span class="label">Linkedin</span></a></li>
                 </ul>
               </section>
 
             <!-- Footer -->
               <footer id="footer">
-                <p class="copyright">&copy; DanielBellfield 2022 </p>
+                <p class="copyright">&copy; Daniel Bellfield 2023 </p>
               </footer>
 
           </div>
